@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerProductCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/t_shirts"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/shirt"
+            />
+        <ImageView
+            android:id="@+id/sport_shirt"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/sports_shirt"
+            />
+        <ImageView
+            android:id="@+id/kemeja"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/kemeja"
+            />
+        <ImageView
+            android:id="@+id/sweater"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/sweater"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/glasses3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/glasses3"
+            />
+        <ImageView
+            android:id="@+id/wbag"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/wbag"
+            />
+        <ImageView
+            android:id="@+id/hat"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/hat"
+            />
+        <ImageView
+            android:id="@+id/shoes"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/shoes"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/headphone"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/headphone2"
+            />
+        <ImageView
+            android:id="@+id/laptop"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/laptop"
+            />
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/watch"
+            />
+        <ImageView
+            android:id="@+id/handphone"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/handphone"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

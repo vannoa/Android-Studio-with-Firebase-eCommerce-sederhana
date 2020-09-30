@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915714354244",
+    "firebase_url": "https://ecommerce-vannoa.firebaseio.com",
+    "project_id": "ecommerce-vannoa",
+    "storage_bucket": "ecommerce-vannoa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915714354244:android:4079927444888db7d46011",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_vannoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915714354244-sfhtch0h3pchi0fg1q8a0hs71smhn7uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerce_vannoa",
+            "certificate_hash": "32e772bc4ccd9303880ad806022a074e028dd06c"
+          }
+        },
+        {
+          "client_id": "915714354244-2bjp5dmq50c39q2ro49p4ju87n7090ac.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu-Tn1HQzSltta_kdW6HnzSQzuU79_hNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915714354244-2bjp5dmq50c39q2ro49p4ju87n7090ac.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
